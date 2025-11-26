@@ -44,3 +44,9 @@ output "password" {
   value = random_password.password.result
   sensitive = true
 }
+
+resource "github_team_membership" "some_team_membership" {
+  team_id  = "1234"
+  username = "SomeUser"
+  role     = "member"
+}
