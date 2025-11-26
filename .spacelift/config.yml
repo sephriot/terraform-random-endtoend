@@ -4,4 +4,4 @@ version: 1
 module_version: 0.2.0
 
 stack_defaults:
-  opentofu_version: "~> 1.7.0"
+  opentofu_version: "~> 1.10.6"
